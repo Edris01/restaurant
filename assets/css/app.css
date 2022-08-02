@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    /* height: 100%; */
+    min-height: 100%;
+}
+
+
+/* headings default  */
+p{
+    margin: 20px 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, ol{
+    margin-left: 40px;
+}
+
+hr{
+    margin: 10px 0px;
+    opacity: .25;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* button default  */
+
+.btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: #4E6166;
+    text-align: center;
+    display: block;
+    letter-spacing: .1em;
+    margin: 10px 0px;
+    padding: 13px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+/* form elements default styling  */
+form input{
+    width: 100%;
+    display: block;
+    border: 1px solid #3E606F;
+    padding: 13px 13px;
+    font-size: 1em;
+    margin-top: 5px auto 10px;
+    border-radius: 3px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+form input:focus{
+    outline: none;
+}
+
+/* logo  */
+header{
+    display: flex;
+}
+header .logo{
+    float: left;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+header .logo .logo-text{
+    color: #B9E6F2;
+    font-size: 2em;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* styling for navbar  */
+ul .topnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3F8742;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active){
+    background-color: #3F8752;
+}
+
+ul.topnav li.right{
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li{
+        float: none;
+    }
+}
+
+/* styling for the banner */
